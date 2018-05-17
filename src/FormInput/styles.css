@@ -1,0 +1,23 @@
+.input-label::before {
+  display: inline-block;
+  content: '*';
+  margin-right: 4px;
+}
+
+.input-label::after {
+  display: inline-block;
+  content: ':';
+  margin-left: 2px;
+}
+
+.form-input-label {
+  width: 100%;
+  display: inline-flex;
+  align-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.form-input-error{
+  height: 14px;
+  color: red;
+}
